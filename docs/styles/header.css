@@ -62,7 +62,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; /* ✅ align vertically */
+  align-items: center; 
 }
 
 .upload-icon-container,
@@ -74,7 +74,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; /* ✅ fix misalignment */
+  align-items: center; 
 }
 
 .search-button .tooltip,
