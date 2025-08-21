@@ -24,12 +24,12 @@ It includes a responsive video grid, channel information, and a top navigation b
 
 ## ⚡ How to Run
 1. Clone or download this repository.
-2. Open `youtube.html` in your browser.
+2. Open `index.html` in your browser.
 
 ---
 
 ## 🎨 Customization
-- To change fonts: edit the Google Fonts link in `youtube.html`.
+- To change fonts: edit the Google Fonts link in `index.html`.
 - To change colors or spacing: modify values in `style.css`.
 
 ---
