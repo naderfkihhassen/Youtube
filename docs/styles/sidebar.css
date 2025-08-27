@@ -39,34 +39,33 @@
   justify-content: center;
 }
 
-/* ===== Responsive ===== */
 @media (max-width: 600px) {
-  /* Sidebar becomes bottom bar */
   .sidebar {
+    width: 100%;               
+    height: 60px;              
     display: flex;
-    flex-direction: row;
+    flex-direction: row;       /* horizontal layout */
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
-    bottom: 0;
-    top: auto;
+    bottom: 0;                 /* stick to bottom */
+    top: auto;                 /* disable top positioning */
     left: 0;
     right: 0;
-    height: 60px;
     padding: 0;
-    justify-content: space-around;
   }
 
   .sidebar-link {
-    flex: 1;
-    height: auto;
+    flex: 1;                   /* spread evenly */
+    height: 100%;              /* take full height of bar */
+    flex-direction: column;
   }
 
   .sidebar-link img {
     margin: 0;
+    width: 24px;               /* smaller icons on mobile */
+    height: 24px;
   }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
-  .sidebar {
-    width: 60px;
-  }
-}
+

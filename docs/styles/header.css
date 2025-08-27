@@ -173,7 +173,6 @@
   border-radius: 16px;
 }
 
-/* ===== Responsive ===== */
 @media (max-width: 600px) {
   .middle-section {
     margin-left: 10px;
@@ -182,11 +181,66 @@
   }
 
   .right-section {
-    width: auto;
-    margin-right: 10px;
+    display: none;
   }
 
   .search-bar {
-    font-size: 14px;
+    display: none;
   }
+  .search-button,
+  .voice-search-button {
+  height: 20px;
+  width: 30px;
+  margin-right: 10px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger-menu {
+  display: none;
+
+}
+.youtube-logo {
+  height: 20px;
+  margin-left: 10px;
+}
+.search-button {
+  height: 20px;
+  width: 30px;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 150px;
+  margin-right: px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voice-search-button {
+  height: 20px;
+  width: 30px;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  
 }
